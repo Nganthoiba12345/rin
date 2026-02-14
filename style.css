@@ -182,6 +182,7 @@ body {
 .branch-container-3 {
     opacity: 0; /* hidden until branch stage */
     transition: opacity 0.5s;
+    overflow: visible; /* allow branches to grow outside container */
 }
 
 .branch-1, .branch-2, .branch-3 {
@@ -194,7 +195,7 @@ body {
 /* Branch 1 (left lower) */
 .branch-container-1 {
     position: absolute;
-    left: 64%;
+    left: 60%;
     bottom: 160px;
     width: 120px;
     height: 80px;
@@ -218,7 +219,7 @@ body {
 /* Branch 2 (right middle) */
 .branch-container-2 {
     position: absolute;
-    right: 20%;
+    right: 28%;
     bottom: 240px;
     width: 130px;
     height: 90px;
@@ -242,7 +243,7 @@ body {
 /* Branch 3 (left upper) */
 .branch-container-3 {
     position: absolute;
-    left: 64%;
+    left: 58%;
     bottom: 320px;
     width: 100px;
     height: 70px;
@@ -690,10 +691,3 @@ body {
 #gardenBed.flower-stage .seed-element {
     opacity: 0;
 }
-
-
-
-
-
-
-
