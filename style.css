@@ -178,14 +178,13 @@ body {
 
 /* ----- BRANCHES (initially hidden) ----- */
 .branch-container-1,
-.branch-container-2,
 .branch-container-3 {
     opacity: 0; /* hidden until branch stage */
     transition: opacity 0.5s;
     overflow: visible; /* allow branches to grow outside container */
 }
 
-.branch-1, .branch-2, .branch-3 {
+.branch-1, .branch-3 {
     width: 0; /* start with zero width, will grow via animation when visible */
     height: 10px;
     background: linear-gradient(145deg, #2d6a4f, #1b4d3a);
@@ -669,6 +668,7 @@ body {
 #gardenBed.flower-stage .seed-element {
     opacity: 0;
 }
+
 
 
 
