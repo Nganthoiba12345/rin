@@ -194,7 +194,7 @@ body {
 /* Branch 1 (left lower) */
 .branch-container-1 {
     position: absolute;
-    left: 60%;
+    left: 64%;
     bottom: 160px;
     width: 120px;
     height: 80px;
@@ -218,7 +218,7 @@ body {
 /* Branch 2 (right middle) */
 .branch-container-2 {
     position: absolute;
-    left: 25%;
+    left: 23%;
     bottom: 240px;
     width: 130px;
     height: 90px;
@@ -242,7 +242,7 @@ body {
 /* Branch 3 (left upper) */
 .branch-container-3 {
     position: absolute;
-    left: 60%;
+    left: 64%;
     bottom: 320px;
     width: 100px;
     height: 70px;
@@ -690,4 +690,5 @@ body {
 #gardenBed.flower-stage .seed-element {
     opacity: 0;
 }
+
 
