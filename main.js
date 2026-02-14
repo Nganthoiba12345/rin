@@ -36,12 +36,7 @@ function setupRoseElements() {
             <div class="leaf-css-1b"></div>
         </div>
         
-        <!-- Branch 2 (right middle) with 2 CSS leaves -->
-        <div class="branch-container-2">
-            <div class="branch-2"></div>
-            <div class="leaf-css-2a"></div>
-            <div class="leaf-css-2b"></div>
-        </div>
+      
         
         <!-- Branch 3 (left upper) with 1 CSS leaf -->
         <div class="branch-container-3">
@@ -150,3 +145,4 @@ seedTrigger.addEventListener('keydown', (e) => {
 gardenBed.addEventListener('dblclick', () => {
     startBloomSequence();
 });
+
