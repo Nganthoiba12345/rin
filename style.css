@@ -216,29 +216,7 @@ body {
     animation-play-state: paused; /* paused until branch becomes visible */
 }
 
-/* Branch 2 (right middle) */
-.branch-container-2 {
-    position: absolute;
-    left: 61%;
-    bottom: 240px;
-    width: 130px;
-    height: 90px;
-    transform: translateX(15px) rotate(15deg);
-    transform-origin: left center;
-    z-index: 15;
-}
 
-.branch-2 {
-    position: absolute;
-    width: 0;
-    height: 10px;
-    border-radius: 0 10px 10px 0;
-    bottom: 25px;
-    right: 0;
-    transform-origin: right center;
-    animation: growBranchWidthRight 1s ease-out forwards;
-    animation-play-state: paused;
-}
 
 /* Branch 3 (left upper) */
 .branch-container-3 {
@@ -691,6 +669,7 @@ body {
 #gardenBed.flower-stage .seed-element {
     opacity: 0;
 }
+
 
 
 
